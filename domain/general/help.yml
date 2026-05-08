@@ -1,0 +1,27 @@
+version: "3.1"
+
+slots:
+  example_questions:
+    type: text
+    initial_value: |
+      - What can you do?
+      - Ask about a public GitHub repo using DeepWiki (e.g. how does X work in rasaHQ/rasa?)
+      - Connect me to a human
+      - Browse FAQs
+    mappings:
+      - type: controlled
+
+responses:
+  utter_what_can_you_do:
+    - text: |
+        I can help you with a few basics like:
+        - Answering questions about a public GitHub repository (owner/repo), grounded in that repo's docs via DeepWiki
+        - Connecting you to a human
+        - Help you try out the FAQs
+        - Collect your feedback
+      metadata:
+        rephrase: True
+    - text: I can help you with GitHub help, FAQs, Feedback and Connect to human
+      channel: browser_audio
+      metadata:
+        rephrase: True
