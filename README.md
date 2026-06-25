@@ -1,4 +1,4 @@
-# Test this out on hello rasa: (develop)
+# Test this out on hello rasa: (develop branch)
 
 [![Launch on Hello Rasa Prod](launch-prod.svg)](https://hello.rasa.com/go?repo=mihajloS/rasa-agent-for-testing)
 [![Launch on Hello Rasa Staging](launch-staging.svg)](https://staging.hello.rasa.com/go?repo=mihajloS/rasa-agent-for-testing)
