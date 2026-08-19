@@ -84,3 +84,6 @@ mcp_servers:
   - name: exa
     url: https://mcp.exa.ai/mcp?exaApiKey=${EXA_API_KEY}&tools=web_fetch_exa
     type: http
+
+
+models:
